@@ -37,7 +37,7 @@ project/
 
 ## 📷 Screenshots
 
-<img src=".image/Screenshot.png width="500" alt="Login Page Screenshot">
+<img src="./image/Screenshot.png" width="500" alt="Login Page Screenshot">
 
 ---
 
