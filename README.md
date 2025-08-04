@@ -33,11 +33,14 @@ A sleek, modern, and responsive login page built using **HTML** and **CSS**. Thi
    └── image/
    └── 5453427.webp
 
+
+   
+
 ## 📷 Screenshots
 
 <img src="./image/Screenshot.png" width="500" alt="Login Page Screenshot">
 
----
+
 
 ## 📌 How to Use
 
@@ -47,16 +50,18 @@ A sleek, modern, and responsive login page built using **HTML** and **CSS**. Thi
    
    git clone https://github.com/PranjalNishad/Simple-Login-Page.git
    
-**Navigate to the Folder**:
+   
+2. **Navigate to the Folder**:
 
    cd your-repo-name
 
 
-**Open the Page**:
+3. **Open the Page**:
 
    . Open index.html in your browser
 
    . Or use VS Code’s Live Server extension for a better development experience
+   
 
 ✨ **Future Improvements**:
 
