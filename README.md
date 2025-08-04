@@ -11,29 +11,27 @@ A sleek, modern, and responsive login page built using **HTML** and **CSS**. Thi
 
 ## 🚀 Features
 
-- ✅ Responsive design for all screen sizes
-- ✅ Clean and minimal layout
-- ✅ Stylish input fields and buttons
-- ✅ "Remember Me" checkbox and "Forgot Password" link
-- ✅ Light text on dark, blurred background
-- ✅ Fully customizable CSS
+   - ✅ Responsive design for all screen sizes
+   - ✅ Clean and minimal layout
+   - ✅ Stylish input fields and buttons
+   - ✅ "Remember Me" checkbox and "Forgot Password" link
+   - ✅ Light text on dark, blurred background
+   - ✅ Fully customizable CSS
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5**
-- **CSS3**
-
----
+   - **HTML5**
+   - **CSS3**
 
 ## 📁 Folder Structure
 
-project/
-├── index.html
-├── style.css
-└── image/
-└── 5453427.webp
+   project/
+   ├── index.html
+   ├── style.css
+   └── image/
+   └── 5453427.webp
 
 ## 📷 Screenshots
 
@@ -44,28 +42,29 @@ project/
 ## 📌 How to Use
 
 1. **Clone the Repository**:
+   
    ```bash
    
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/PranjalNishad/Simple-Login-Page.git
    
-Navigate to the Folder:
+**Navigate to the Folder**:
 
-bash
-Copy
-Edit
-cd your-repo-name
-Open the Page:
+   cd your-repo-name
 
-Open index.html in your browser
 
-Or use VS Code’s Live Server extension for a better development experience
+**Open the Page**:
 
-✨ Future Improvements
- Add JavaScript form validation
+   . Open index.html in your browser
 
- Integrate with a backend for real login handling
+   . Or use VS Code’s Live Server extension for a better development experience
 
- Add "Show/Hide Password" toggle
+✨ **Future Improvements**:
+
+    . Add JavaScript form validation
+
+    . Integrate with a backend for real login handling
+
+    . Add "Show/Hide Password" toggle
 
  Smooth input animations and error handling
 
