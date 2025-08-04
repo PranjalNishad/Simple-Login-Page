@@ -17,8 +17,9 @@
 }
 
 .content{
-    width: 400px;
-    height: 550px;
+    max-width: 90%;
+    width: 420px;
+    height: 570px;
     background: rgb(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     border-radius: 20px;
@@ -32,14 +33,11 @@
 
 .form-group{
     position: relative;
-    /* background-color: rgb(235, 20, 20); */
     margin: 30px 0;
-    width: 330px;
+    width: 340px;
     border-radius: 10px;
-    /* border-bottom: 3px solid rgb(149, 5, 5); */
     display: flex;
     flex-direction: column;
-    gap: 20;
 }
 
 .heading{
@@ -48,26 +46,25 @@
     color: white;
 }
 
-#inputbox{
+.inputbox{
     margin-bottom: 20px;
     position: relative;
     border-radius: 10px;
 }
 
-.form-group #inputbox input{
+.form-group .inputbox input{
     width: 100%;
     padding: 12px 35px 12px 10px;
     border: none;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-radius: 50px;
     background: transparent;
     outline: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: rgb(255, 255, 255);
     margin-bottom: 15px;
     background-color: rgb(0, 0, 0, 0.5);
     
 }
-
 
 
 .remember{
@@ -91,7 +88,7 @@
 
 .remember input{
     color: white;
-    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .remember a{
@@ -114,9 +111,19 @@ button{
     justify-content: center;
     margin-bottom: 35px;
     color: white;
-    
 
 }
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 .register-txt{
     display: flex;
@@ -132,3 +139,14 @@ button{
     font-weight: bold;
 }
 
+@media (max-width: 500px) {
+  .content {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
