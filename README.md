@@ -4,8 +4,8 @@ A sleek, modern, and responsive login page built using **HTML** and **CSS**. Thi
 
 ## 📸 Preview
 
-![Login Page Screenshot](./image/5453427.webp)  
-*(Make sure this image exists in your repo. Replace or rename if needed.)*
+![Login Page Screenshot](./image/screenshot.png)
+
 
 ---
 
