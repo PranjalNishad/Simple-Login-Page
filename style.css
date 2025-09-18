@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     background-image: url(./image/5453427.webp);
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.content{
+.content {
     max-width: 90%;
     width: 420px;
     height: 570px;
@@ -28,10 +28,10 @@
     align-items: center;
     padding: 2rem;
     flex-direction: column;
-    
+
 }
 
-.form-group{
+.form-group {
     position: relative;
     margin: 30px 0;
     width: 340px;
@@ -40,19 +40,19 @@
     flex-direction: column;
 }
 
-.heading{
+.heading {
     text-align: center;
     margin-top: 5px;
     color: white;
 }
 
-.inputbox{
+.inputbox {
     margin-bottom: 20px;
     position: relative;
     border-radius: 10px;
 }
 
-.form-group .inputbox input{
+.form-group .inputbox input {
     width: 100%;
     padding: 12px 35px 12px 10px;
     border: none;
@@ -63,11 +63,11 @@
     color: rgb(255, 255, 255);
     margin-bottom: 15px;
     background-color: rgb(0, 0, 0, 0.5);
-    
+
 }
 
 
-.remember{
+.remember {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -78,27 +78,27 @@
 
 }
 
-.remember p{
+.remember p {
     text-align: center;
     padding: 10px 0;
     margin-top: 10px;
-    color: white ;
-    
+    color: white;
+
 }
 
-.remember input{
+.remember input {
     color: white;
     margin-right: 7px;
 }
 
-.remember a{
+.remember a {
     color: white;
     text-decoration: none;
     margin-top: 20px;
     font-weight: bold;
 }
 
-button{
+button {
     width: 100%;
     padding: 12px;
     border: none;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 
-.register-txt{
+.register-txt {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -133,20 +133,21 @@ a:hover {
     justify-content: center;
     color: white;
 }
-.register-txt a{
+
+.register-txt a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
 @media (max-width: 500px) {
-  .content {
-    width: 90%;
-    height: auto;
-    padding: 1rem;
-  }
+    .content {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
 
-  .form-group {
-    width: 100%;
-  }
+    .form-group {
+        width: 100%;
+    }
 }
